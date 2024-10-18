@@ -1,10 +1,17 @@
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--dark-blue);
+  color: var(--white);
   padding: 1rem 0;
   text-align: center;
 }
 
 footer p {
   margin: 0;
+  color: var(--light-blue-1);
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 1.5rem 1rem;
+  }
 }

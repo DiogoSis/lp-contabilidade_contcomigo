@@ -1,14 +1,11 @@
-import React from 'react';
-import "./style.css"
+import { Box, Typography } from '@mui/material';
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="container">
-        <p>&copy; 2024 ContComigo</p>
-      </div>
-    </footer>
+    <Box sx={{ textAlign: 'center', py: 2 }}>
+      <Typography variant="body2">&copy; 2024 ContComigo</Typography>
+    </Box>
   );
-}
+};
 
 export default Footer;
